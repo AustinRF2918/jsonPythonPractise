@@ -1,0 +1,37 @@
+########################### PRESET MANAGER DESIGN ############################
+
+->Central Attribute Database:
+    ->First thing we need to have is every single attribute an object needs to have. This is because
+    we need to give the user a set of terms that will facilitate searching. So, based on the bootstrap
+    themes, I have come up with the following.
+        ->Single Page
+        ->Multi Page
+        ->Dynamic Friendly
+        ->Business
+        ->Personal
+        ->Casual
+        ->Dark
+        ->Light
+        ->Beautiful
+        ->Drab
+        ->Full
+        ->Component
+        ->ECommerce
+        ->Technical
+            ->I will be implementing these as JSON. SQL is a little bit overkill for this, as much
+            as I wanna start using this.
+
+->Template Database:
+    ->Name will appear in array portion one (Pseudo primary key), and we will have multiple attributes:
+        PageStyle : [Single Page, Multi Page]
+        Dynamicity : [Dynamic Friendly, Nondynamic]
+        Casuality : [Personal, Casual, Business]
+        Lightness : [Light, Dark]
+        Beautiful : [Yes, No]
+        ECommerce : [Yes, No]
+        Techincal : [Yes, No]
+        Component : [Yes, No]
+        Full : [Yes, No]
+
+Place this in a template folder directory for easy parsing, folder name will be our primary key.
+
