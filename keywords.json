@@ -1,0 +1,15 @@
+{
+    "SearchTerms": [
+        {
+            "SinglePage": ["Yes", "No"],
+            "Dynamic": ["Yes", "No"],
+            "Casuality": ["Business", "Casual", "Personal", "Kids"],
+            "Lightness": ["Light", "Medium", "Dark"],
+            "Beautiful": ["Yes", "No"],
+            "ECommerce": ["Yes", "No"],
+            "Technical": ["Yes", "No"],
+            "Component": ["Yes", "No"],
+            "Full": ["Yes", "No"]
+        }
+    ]
+}
