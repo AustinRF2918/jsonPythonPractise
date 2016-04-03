@@ -9,7 +9,8 @@
             "ECommerce": ["Yes", "No"],
             "Technical": ["Yes", "No"],
             "Component": ["Yes", "No"],
-            "Full": ["Yes", "No"]
+            "Full": ["Yes", "No"],
+            "Searchable": ["Yes", "No"]
         }
     ]
 }

@@ -1,29 +1,16 @@
 {
-    "StartBootstrap-OnePagePortfolio": [
-        {
-        "SinglePage": "Single Page",
-        "Dynamic": "True",
-        "Casuality": "Business",
-        "Lightness": "Dark",
-        "Beautiful": "Yes",
-        "ECommerce": "Yes",
-        "Technical": "Yes",
-        "Component": "Yes",
-        "Full": "Yes"
-        }
-    ],
-
-    "StartBootstrap-TwoPagePortfolio": [
-        {
-        "SinglePage": "Multi Page",
-        "Dynamic": "True",
-        "Casuality": "Personal",
-        "Lightness": "Light",
-        "Beautiful": "No",
-        "ECommerce": "Yes",
-        "Technical": "No",
-        "Component": "Yes",
-        "Full": "No"
+"StartBootstrap-Yomother": [{"SinglePage": "yes", "Component": "yes", "Dynamic": "yes", "Beautiful": "yes", "Searchable": "yes", "Technical": "yes", "Full": "yes", "Casuality": "yes", "ECommerce": "yes", "Lightness": "yes"}]
+    "StartBootstrap-Yomother": [
+        {"SinglePage": "yes",
+         "ECommerce": "yes",
+         "Casuality": "yes",
+         "Lightness": "yes",
+         "Component": "yes",
+         "Dynamic": "yes",
+         "Full": "yes",
+         "Beautiful": "yes",
+         "Technical": "yes",
+         "Searchable": "yes"
         }
     ]
 }
